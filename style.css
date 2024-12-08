@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 :root{
-    
+    --main-text-color: #614bfa;
+    --main-bg-color: #f8f8f8;
 }
 header{
     padding: 22px 0px 22px 0px;

@@ -126,50 +126,121 @@ header h2{
         text-decoration: none;
     }
 }
-
 .section_2{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    height: 90vh;
+    
+    .sev_1{
+        background-image: url(https://ld-wp73.template-help.com/wordpress/prod_13996/v3/wp-content/uploads/2022/02/Deco.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 100;
+    }
+}
+
+.section_3 {
+    background-color: #f8f8f8;
+    color: #333;
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr;
+    .sev_11{
+        height: 100%;
+        
+
+    }
+
+    .sev_21{
+        background-image: url(./media/Deco.jpg);
+        min-height: 100%;
+        background-position: center center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+
+
+.section_4{
     display: grid;
     grid-template-columns:  1fr 1fr;
     height: 100vh;
     
-    .sev_1{
+    .sev_12{
+        background-image: url(./media/Deco.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: 100;
+    }
+}
+
+.section_5 {
+    background-color: #f8f8f8;
+    color: #333;
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 1fr 1fr;
+    .sev_13{
+        height: 100%;
+        
+
+    }
+
+    .sev_23{
+        background-image: url(./media/Deco.jpg);
+        min-height: 100%;
+        background-position: center center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+.section_6{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    height: 100vh;
+    background-color: #f8f8f8;
+    
+    .sev_14{
         background-image: url(./media/Deco.jpg);
         background-image: url(https://ld-wp73.template-help.com/wordpress/prod_13996/v3/wp-content/uploads/2022/02/Deco.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-
         z-index: 100;
 
     }
 }
 
-.section_3, .section_4, .section_5, .section_6 {
-    min-height: 100vh;
-    padding: 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.section_3 {
+.section_7 {
     background-color: #f8f8f8;
     color: #333;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .sev_11{
+        height: 100%;
+        
 
-.section_4{
-    background-color: #e0e0e0;
-    color: #333;
-}
+    }
 
-.section_5 {
-    background-color: #d0d0d0;
-    color: #333;
-}
-.section_6{
-    background-color: #e0e0e0;
-    color: #333;
+    .sev_21{
+        background-image: url(./media/Deco.jpg);
+        min-height: 100%;
+        background-position: center center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
